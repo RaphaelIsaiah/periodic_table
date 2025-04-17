@@ -12,7 +12,7 @@ display_data() {
 # Check if an argument is provided
 if [[ -z $1 ]]; then
   echo "Please provide an element as an argument."
-  exit 1
+  exit
 fi
 
 # Determine if input is atomic number, symbol, or name
